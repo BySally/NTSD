@@ -8,7 +8,7 @@ The GitHub repository currently holds the project WEBSITE, not the complete play
 ## Code and content freeze
 
 - [ ] Confirm source client/server profiles and exact Forge loader version.
-- [ ] Confirm version/tag and meaningful changelog; alpha.5 is a candidate, not a verified release.
+- [ ] Confirm version/tag and meaningful changelog; alpha.6 (0.1.0-alpha.6) is the current candidate, not a verified public release.
 - [ ] Inventory all enabled and disabled JARs and their SHA-256.
 - [ ] Ensure duplicate mod IDs, mismatched loader/game version and missing dependencies are resolved.
 - [ ] Check client-only mods do not enter the dedicated server.
