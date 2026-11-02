@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: "NTSD project homepage / Главная страница NTSD"
+    url: "https://bysally.github.io/NTSD/"
+    about: "Read about the project and downloads / Информация о проекте и загрузках"
