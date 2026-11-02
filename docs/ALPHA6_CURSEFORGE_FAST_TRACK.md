@@ -1,55 +1,108 @@
-# NTSD 0.1.0-alpha.6 — CurseForge-first publication plan
+# NTSD 0.1.0-alpha.6 — мой план публикации на CurseForge
 
-Status: **PREPARATION; DO NOT UPLOAD THE CURRENT WORKING JAR COLLECTION UNCHANGED**.
+**Проект:** Nuclear Tech: Second Dawn (NTSD)  
+**Автор:** BySally  
+**Minecraft:** 1.20.1 · **Forge:** 47.4.28 · **Java:** 17  
+**Статус:** подготовка первого публичного Alpha-релиза. Сборка пока не опубликована.
 
-Goal: make the **first honest, installable alpha** available through CurseForge before finishing the full NTNH port. This is not a demand to finish 47 pending quest conditions or all optional integration defects.
+## Моя цель
 
-## Fast-track strategy
+Я хочу выпустить **первую рабочую альфа-версию NTSD на CurseForge**, а затем постепенно исправлять оставшиеся баги и завершать перенос контента из Nuclear Tech: New Horizons.
 
-1. Create **staging copy** of alpha.6 (Minecraft 1.20.1 / Forge 47.4.28 / Java 17). Keep the original alpha.6 and worlds untouched.
-2. Replace the **23 mismatched candidate jars** in staging using the exact same-version, official CurseForge App files (20 metadata/container variants; 3 Architectury/class-name variants). Test in two batches; do not mix with source jar reuploads. Preserve backups and record before/after SHA.
-3. Complete fileID metadata lookup for the **5 unresolved files** (Traveler's Backpack, 3d-Skin-Layers, Xaero's World Map, ImmediatelyFast, Not Enough Animations), confirming exact Forge 1.20.1 tags and the chosen file on CurseForge; 2 previously missing files Chisel Modern and Crust are resolved. In particular do not assume that the ImmediatelyFast file name containing '+1.20.4' guarantees the needed loader/version tags.
-4. Replace local **Golem Core** with official CurseForge project **1719361**, file **9377649** (only in staging), then test mixins, loading and a copied world.
-5. For **HBM Continuum** and **Space**, fastest option is to TEST the **official unmodified same-version JARs** in staging (Continuum 1719328/9378093; Space 1754149/9378781), accepting temporary loss of some hardcoded RU/EN strings in the first public alpha. Do not represent this as full localization equivalence. Restore portable lang files only via legal ordinary resource packs/overrides if those really work; otherwise document reduced localization. If this causes gameplay/registry regressions, revert staging and take documented CF fork route after source/license review.
-6. **NTNHCore** cannot be replaced with a historical 1.7.10 mod. It requires an individual rights-cleared CurseForge mod project or other formally accepted distribution route. First resolve mixed-source TTF/Unihex (legacy Minecraft / NTNH), unknown Improving Minecraft tools, RTF+ scope and mixed artwork/translation notices. If needed, use a specifically tested permitted replacement for disputed resources, preserving registry IDs and quests.
-7. **NTSD Early Loading** and **NTSD Menu Background**: prepare individual CurseForge Mod projects with own source/LICENSE/build scripts, actual binaries and provenance for externally loaded animation. Publication and moderation of those new mod files must occur before referencing them in a public modpack manifest. Do not merge modules merely to reduce project count without retesting.
-8. **PNC Recipe Fix**: choose whichever is easiest and actually works in a **fresh imported profile**: an automatically loaded, rights-cleared resource/datapack override (if available through existing infrastructure), a small standalone CF mod project, or packaging within independently approved NTNHCore if legal and load-order-safe. Manual per-world copying is not equivalent to automatic installation.
-9. All other known, permissible CF mods must be selected through the **CurseForge App's Add More Content** and referenced in its automatically exported `manifest.json`; do not hand-edit the app-generated manifest. Only approved Non-CurseForge mods may appear as third-party jars in `overrides/mods`; provide required attribution in the project description.
-10. Use **Share Profile → Export as .zip**, check top-level `manifest.json` and `overrides/`. Import the exported ZIP into a **completely clean** CurseForge profile; test start, create world, main menu, quest book, Forge 47.4.28 and dedicated server compatibility if attaching a server pack.
-11. The first project file can honestly be classified **Alpha**, which is available on the CurseForge website after approval. For app discoverability, an approved Beta or Release file is normally required; do **not** relabel an untested alpha just to bypass that distinction. See official documentation.
-12. Submit **matching server pack as Additional File** of the same primary modpack file only once its license and runtime checks pass.
+Я не собираюсь откладывать первую публикацию до полной готовности каждого квеста и каждой дополнительной интеграции. При этом для релиза мне важны стабильная установка, работоспособность основных механик и соблюдение лицензий модов и ресурсов.
 
-## NOT blocking first Alpha for this project
+## Как я планирую подготовить alpha.6
 
-- OpenComputers's 37 pending quest conditions: explicitly state unported, not promised as complete.
-- Other optional quest tasks / side branches and noncritical integration warnings: list with clear known issues.
-- Terralith remains disabled, worldgen caveats disclosed.
-- The 2 main AE2 quest gates and prospecting still warrant player-facing warnings; verify any risk of unplayable main progression and do not claim complete survival progression.
+### 1. Отдельная тестовая сборка
 
-## Mandatory release gates (must PASS)
+Для подготовки публикации **нужно создать отдельную тестовую копию alpha.6**. Рабочую версию, существующие миры и сохранения **оставлю без изменений**, чтобы можно было сравнивать результаты тестов и возвращаться к исходному состоянию.
 
-- All JARs in the **actual uploaded modpack** have correct CurseForge project/file IDs or valid approved-third-party routes.
-- All custom/modified mods that remain are legally distributable under known applicable license and asset permissions; separate CF projects approved where needed.
-- No altered original JAR is impersonating an official upstream file ID.
-- Fresh export/import works and the installed client can boot and create/join worlds; primary core loop is usable.
-- No secrets, local saves, personal files, banned license content or unsupported loader versions in public ZIP.
-- Project icon at least 400x400; actual descriptive project text and author credits.
-- Clearly label pending quests, incomplete localization (if applicable) and known alpha bugs.
+За основу беру текущие версии Minecraft 1.20.1, Forge 47.4.28 и Java 17.
 
-## Exact next Codex deliverables
+### 2. Переход на проверенные файлы CurseForge
 
-- `NTSD_RELEASE/alpha.6/06-CF-FASTTRACK/STAGING_REPLACEMENTS.csv` with old/new SHA, official CF IDs, test status and rollback for 23+Golem+HBM+Space.
-- `CUSTOM_MOD_PUBLICATION.csv` for NTNHCore, Early Loading, Menu Background, PNC fix and fork contingencies.
-- `CURSEFORGE_METADATA_REMAINING.csv` for 5 uncertain official file IDs.
-- `FINAL_MODPACK_COMPOSITION.csv`: actual intended installed files with distribution route.
-- `CURSEFORGE_IMPORT_TEST.md`, `BLOCKERS_FOR_FIRST_ALPHA.md`, `PACKAGE_READY.md`, plus genuine App-generated zip **only if all mandatory gates pass**.
-- Keep prior audit evidence and all original active alpha.6 JARs unmodified.
+По результатам аудита **23 установленных JAR** отличаются от найденных официальных файлов тех же версий. Для публичного кандидата я планирую проверить возможность использовать оригинальные CurseForge-файлы.
 
-## Official policy references (review at publication)
+В 20 случаях отличия связаны преимущественно с упаковкой или метаданными. Ещё в трёх отмечены различия сгенерированных элементов Architectury. Сначала проверю менее рискованные замены, затем оставшиеся — с обязательным сравнением запуска, модов и сохранений.
 
-- Export/modpack rules: https://support.curseforge.com/support/solutions/articles/9000197908-exporting-a-modpack-for-curseforge-project-submission
-- Moderation: https://support.curseforge.com/support/solutions/articles/9000197279-project-and-modpack-moderation-policies
-- Non-CF mods: https://support.curseforge.com/support/solutions/articles/9000197913-non-curseforge-mods
-- App visibility by file type: https://support.curseforge.com/support/solutions/articles/9000197242
+Для пяти других файлов пока не полностью подтверждены метаданные CurseForge: Traveler's Backpack, 3D Skin Layers, Xaero's World Map, ImmediatelyFast и Not Enough Animations. Их точные версии и fileID нужно уточнить до формирования окончательного manifest.
 
-The source of these priorities is the owner's supplied follow-up audit and current CurseForge documentation. Nothing here claims new replacement binaries have already passed gameplay regression testing.
+### 3. HBM Continuum, Space и Golem Core
+
+Хочу **сократить число отдельных форков**, если это не ухудшит игровой процесс.
+
+В тестовой копии планирую проверить официальные файлы:
+
+| Компонент | CurseForge projectID | fileID |
+| --- | ---: | ---: |
+| HBM NTM Continuum | 1719328 | 9378093 |
+| NTM Continuum Space | 1754149 | 9378781 |
+| Golem Core | 1719361 | 9377649 |
+
+В HBM и Space мои локальные сборки содержат изменения локализации. **На время первого публичного Alpha-релиза я допускаю частичную потерю переводов**, если механики, серверная совместимость, рецепты и сохранения продолжат работать.
+
+Если оригинальные файлы нарушат важную функциональность, сохраню локальные изменения и рассмотрю документированные форки с соблюдением условий лицензий и публикации CurseForge. Совместимость замен пока не подтверждена.
+
+### 4. Собственные компоненты NTSD
+
+Для **NTNHCore**, **NTSD Early Loading** и **NTSD Menu Background** рассматриваю публикацию отдельных проектов модов на CurseForge, если это окажется подходящим способом распространения.
+
+Особое внимание уделю **NTNHCore**: у части старых шрифтов, текстур и адаптированных ресурсов нужно уточнить происхождение и применимые права. Спорные материалы не стану распространять без понятного разрешения или допустимой замены. При заменах важно сохранить игровые идентификаторы, квесты и существующее поведение.
+
+Для **PNC Recipe Fix** хочу подобрать наименее сложный способ автоматической доставки исправленного рецепта — например, через проверенный resource/datapack override или один из разрешённых к распространению модулей. Исправление должно работать после обычной установки сборки, без ручного копирования файлов в каждый мир.
+
+### 5. Первый альфа-релиз без завершения всего переноса
+
+Для первой Alpha **пока оставляю в списке известных ограничений**:
+
+- Отложенную ветку OpenComputers и её 37 неперенесённых условий.
+- Часть побочных квестов и некритичные предупреждения интеграций.
+- Отключённый Terralith и известные ограничения worldgen.
+- Неокончательную локализацию отдельных модов, если это потребуется для перехода на официальные файлы.
+
+Отдельно хочу проверить две основные проблемные задачи Applied Energistics 2 и геологоразведку. Они могут затрагивать важную прогрессию, поэтому **не буду объявлять весь survival или всю книгу квестов полностью проходимыми**, пока это не подтверждено.
+
+### 6. Установочный архив CurseForge
+
+Когда будет определён допустимый состав модов, подготовлю **настоящий экспорт CurseForge App**, в котором официальные моды подключаются через корректные projectID/fileID, а необходимые файлы конфигурации и контент NTSD находятся в overrides.
+
+Готовый ZIP проверю импортом в новый чистый профиль. Для первого релиза мне достаточно подтвердить, что сборка устанавливается, запускается, создаёт мир, открывает квестовую книгу и позволяет играть с основными системами. Совместимость сервера проверю для отдельного серверного пакета.
+
+Серверную сборку планирую приложить как **Additional File** к соответствующей версии CurseForge, когда её состав и установка будут проверены.
+
+## Что я считаю обязательным перед публикацией
+
+- Все JAR, включённые в публичную сборку, должны иметь допустимый маршрут распространения через CurseForge.
+- Для собственных и изменённых модов должны быть понятны лицензии, права на ресурсы и источники.
+- Изменённый JAR не должен выдаваться за официальный файл с чужим fileID.
+- Архив должен устанавливаться в чистый профиль и запускать основные игровые механики.
+- В публичный ZIP не попадут личные миры, токены, логи и другие приватные файлы.
+- В описании Alpha будут честно перечислены ограничения и известные ошибки.
+
+Это **условия первого выпуска**, а не требование завершить все будущие функции NTSD.
+
+## Что должно получиться
+
+По итогам подготовки хочу иметь:
+
+- ZIP-кандидат **NTSD 0.1.0-alpha.6 для CurseForge**;
+- отдельный серверный пакет, если он пройдёт проверку;
+- проверенный список модов и их источников;
+- результаты чистой установки;
+- список известных проблем Alpha;
+- описание релиза и благодарности оригинальным разработчикам.
+
+Если какая-то часть останется заблокированной правилами распространения или лицензиями, сохраню её в списке нерешённых вопросов, а не буду маскировать или выдавать неполный архив за полноценную рабочую сборку.
+
+## Ссылки
+
+- [Официальный сайт NTSD](https://bysally.github.io/NTSD/)
+- [Репозиторий NTSD](https://github.com/BySally/NTSD)
+- [Экспорт модпаков CurseForge](https://support.curseforge.com/support/solutions/articles/9000197908-exporting-a-modpack-for-curseforge-project-submission)
+- [Правила модерации CurseForge](https://support.curseforge.com/support/solutions/articles/9000197279-project-and-modpack-moderation-policies)
+
+---
+
+*Этот документ отражает мой план разработки и публикации NTSD. Он не является инструкцией для игроков или подтверждением того, что публичная сборка уже готова.*
+
+**BySally — автор Nuclear Tech: Second Dawn**
