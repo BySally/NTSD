@@ -43,17 +43,17 @@
     if(!release)return;
     const assets=release.assets||[];
     const findAsset=(type)=>assets.find(a=>{const name=a.name.toLowerCase();return (type==='client'?/(client|modpack|curseforge)/:/(server|dedicated)/).test(name)&&/\.(zip|mrpack|jar)$/.test(name);});
-    const client=cfg.clientDownloadUrl||findAsset('client')?.browser_download_url||release.html_url;
+    const client=cfg.clientDownloadUrl||findAsset('client')?.browser_download_url||'';
     const server=cfg.serverDownloadUrl||findAsset('server')?.browser_download_url||'';
     if(client){enable(qs('#downloadClient'),client);qs('#downloadClient span').textContent=i18n[lang].downloadNow;qs('#clientNote').textContent=release.tag_name;}
     if(server){enable(qs('#downloadServer'),server);qs('#downloadServer span').textContent=i18n[lang].downloadNow;qs('#serverNote').textContent=release.tag_name;}
-    releaseActive=Boolean(client);
-    qs('#releaseStatus').textContent=i18n[lang].releaseAvailable;
+    releaseActive=Boolean(client||server);
+    if(releaseActive)qs('#releaseStatus').textContent=i18n[lang].releaseAvailable;
   };
   if(cfg.clientDownloadUrl||cfg.serverDownloadUrl){const client=cfg.clientDownloadUrl,server=cfg.serverDownloadUrl;if(client){enable(qs('#downloadClient'),client);qs('#downloadClient span').textContent=i18n[lang].downloadNow;}if(server){enable(qs('#downloadServer'),server);qs('#downloadServer span').textContent=i18n[lang].downloadNow;}}
   if(cfg.checkGithubAvailability!==false){
     fetch(api,{headers:{Accept:'application/vnd.github+json'}}).then(r=>r.ok?r.json():null).then(data=>{if(data&&!data.private)setRepo(true);}).catch(()=>{});
-    fetch(`${api}/releases/latest`,{headers:{Accept:'application/vnd.github+json'}}).then(r=>r.ok?r.json():null).then(data=>{if(data&&!data.draft&&!data.prerelease)setRelease(data);}).catch(()=>{});
+    fetch(`${api}/releases?per_page=20`,{headers:{Accept:'application/vnd.github+json'}}).then(r=>r.ok?r.json():null).then(data=>{if(!Array.isArray(data))return;const published=data.find(release=>!release.draft&&Array.isArray(release.assets)&&release.assets.some(a=>/(client|modpack|curseforge|server|dedicated)/i.test(a.name||'')&&/\.(zip|mrpack|jar)$/i.test(a.name||'')));if(published)setRelease(published);}).catch(()=>{});
   }
   setLang(lang);
 })();
