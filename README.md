@@ -36,23 +36,6 @@
 | **🚀 Space exploration** | **📖 Quest progression** |
 | Космические технологии HBM Continuum Space.<br>Space technology powered by HBM Continuum Space. | Адаптированная система заданий NTNH.<br>Quest content adapted from NTNH. |
 
-## Атмосфера NTSD · Visual identity
-
-<table>
-<tr>
-<td width="33%"><img src="assets/nuclear-complex.webp" alt="Concept art: nuclear complex" width="100%"></td>
-<td width="33%"><img src="assets/industrial-dawn.webp" alt="Concept art: industrial dawn" width="100%"></td>
-<td width="33%"><img src="assets/rocket-complex.webp" alt="Concept art: rocket complex" width="100%"></td>
-</tr>
-<tr>
-<td align="center"><b>Nuclear industry</b></td>
-<td align="center"><b>Industrial dawn</b></td>
-<td align="center"><b>Space program</b></td>
-</tr>
-</table>
-
-<sub>These are NTSD promotional concept illustrations, not gameplay screenshots. / Это концепт-иллюстрации проекта, а не скриншоты из игры.</sub>
-
 ## Скачать · Downloads
 
 | Издание / Edition | Статус / Status | Ссылка / Link |
