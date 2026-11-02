@@ -1,0 +1,72 @@
+name: "Bug report / Сообщить об ошибке"
+description: "Report a problem in Nuclear Tech: Second Dawn / Сообщить об ошибке NTSD"
+title: "[Bug] "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping test NTSD! / Спасибо за помощь в тестировании NTSD!
+        Please do not share passwords, access tokens, IP addresses, or personal data in logs.
+  - type: input
+    id: version
+    attributes:
+      label: "NTSD version / Версия NTSD"
+      description: "Example: alpha.5"
+      placeholder: "alpha.5"
+    validations:
+      required: true
+  - type: dropdown
+    id: environment
+    attributes:
+      label: "Environment / Где возникает проблема"
+      options:
+        - "Singleplayer / Одиночная игра"
+        - "Multiplayer client / Клиент сервера"
+        - "Dedicated server / Выделенный сервер"
+        - "Main menu / Главное меню"
+        - "Other / Другое"
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: "Problem / Описание ошибки"
+      description: "What is wrong? / Что произошло?"
+      placeholder: "Describe the problem / Опиши проблему"
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: "Steps to reproduce / Как повторить"
+      placeholder: |
+        1. ...
+        2. ...
+        3. ...
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: "Expected result / Ожидаемый результат"
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: "Logs, crash report, screenshots / Логи и скриншоты"
+      description: "Drag files here or attach a link; remove sensitive data first. / Удали личные данные из логов перед публикацией."
+      placeholder: "Paste log excerpts, links, or drag attachments here"
+      render: text
+    validations:
+      required: false
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: "Checklist / Перед отправкой"
+      options:
+        - label: "I checked for existing reports / Я проверил, нет ли такого бага"
+          required: true
+        - label: "I removed private data from attachments / Я удалил личные данные из вложений"
+          required: true
