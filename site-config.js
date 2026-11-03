@@ -1,11 +1,11 @@
-// Edit this file after creating the repository / publishing releases.
+// Public alpha.6 direct-download fallback. Update these links with every new release.
 window.NTSD_CONFIG = {
   githubOwner: 'BySally',
   githubRepo: 'NTSD',
   // Once a release is published, the site discovers it automatically via GitHub API.
-  // Optional direct URLs override automatic release links (leave empty if unused).
-  clientDownloadUrl: '',
-  serverDownloadUrl: '',
+  // These known-good URLs work even when the GitHub Releases API is unavailable.
+  clientDownloadUrl: 'https://github.com/BySally/NTSD/releases/download/0.1.0-alpha.6/NTSD-0.1.0-alpha.6-client.zip',
+  serverDownloadUrl: 'https://github.com/BySally/NTSD/releases/download/0.1.0-alpha.6/NTSD-0.1.0-alpha.6-server.zip',
   // Keep as true: downloads must not open nonexistent files.
   checkGithubAvailability: true,
   defaultLanguage: 'ru'
