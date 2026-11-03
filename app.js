@@ -43,8 +43,8 @@
     if(!release)return;
     const assets=release.assets||[];
     const findAsset=(type)=>assets.find(a=>{const name=a.name.toLowerCase();return (type==='client'?/(client|modpack|curseforge)/:/(server|dedicated)/).test(name)&&/\.(zip|mrpack|jar)$/.test(name);});
-    const client=cfg.clientDownloadUrl||findAsset('client')?.browser_download_url||'';
-    const server=cfg.serverDownloadUrl||findAsset('server')?.browser_download_url||'';
+    const client=findAsset('client')?.browser_download_url||cfg.clientDownloadUrl||'';
+    const server=findAsset('server')?.browser_download_url||cfg.serverDownloadUrl||'';
     if(client){enable(qs('#downloadClient'),client);qs('#downloadClient span').textContent=i18n[lang].downloadNow;qs('#clientNote').textContent=release.tag_name;}
     if(server){enable(qs('#downloadServer'),server);qs('#downloadServer span').textContent=i18n[lang].downloadNow;qs('#serverNote').textContent=release.tag_name;}
     releaseActive=Boolean(client||server);
