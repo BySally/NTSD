@@ -1,0 +1,2 @@
+2203a1087856a6ed9ce05767eabd6d2e0bf0789e282dbdafe8ceb5e6448a6aeb  NTSD-0.1.0-alpha.6-client.zip
+d8785de4cf4ad7b088cbeddd4958303ccdf5058d4b990cd72014b35214315fa2  NTSD-0.1.0-alpha.6-server.zip

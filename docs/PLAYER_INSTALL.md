@@ -24,7 +24,7 @@ NTSD — сборка Minecraft и оригинальные вспомогате
 Серверный ZIP содержит установщик, а не полный автономный сервер.
 
 - Требуются **Java 17**, **Python 3.10+**, подключение к интернету и клиентский профиль **именно 0.1.0-alpha.6**, установленный через CurseForge App.
-- Распакуй серверный ZIP в **отдельную папку**. Следуй инструкциям в **[INSTALL_RU.md](https://github.com/BySally/NTSD/releases/download/0.1.0-alpha.6/INSTALL_RU.md)** или **[INSTALL_EN.md](https://github.com/BySally/NTSD/releases/download/0.1.0-alpha.6/INSTALL_EN.md)** для Windows/Linux.
+- Распакуй серверный ZIP в **отдельную папку**. Следуй инструкциям в **[INSTALL_RU.md](https://github.com/BySally/NTSD/blob/main/docs/releases/0.1.0-alpha.6/INSTALL_RU.md)** или **[INSTALL_EN.md](https://github.com/BySally/NTSD/blob/main/docs/releases/0.1.0-alpha.6/INSTALL_EN.md)** для Windows/Linux.
 - Minecraft EULA должен принять владелец сервера; установщик не делает это автоматически.
 - Подключайся к запущенному серверу через обычный **список серверов**. Quick Play в локальной проверке дал тайм-аут.
 
@@ -34,7 +34,7 @@ NTSD — сборка Minecraft и оригинальные вспомогате
 
 - Это **pre-release**, не окончательный перенос NTNH: **30 квестов пока недоступны** напрямую либо из-за зависимостей.
 - Старые миры Minecraft **1.7.10 нельзя переносить напрямую**. Перед обновлением сохранения сделай резервную копию и проверяй обновление на копии.
-- [Известные проблемы](https://github.com/BySally/NTSD/releases/download/0.1.0-alpha.6/KNOWN_ISSUES.md) · [Сообщить об ошибке](https://github.com/BySally/NTSD/issues/new/choose) · [Страница выпуска](https://github.com/BySally/NTSD/releases/tag/0.1.0-alpha.6)
+- [Известные проблемы](https://github.com/BySally/NTSD/blob/main/docs/releases/0.1.0-alpha.6/KNOWN_ISSUES.md) · [Сообщить об ошибке](https://github.com/BySally/NTSD/issues/new/choose) · [Страница выпуска](https://github.com/BySally/NTSD/releases/tag/0.1.0-alpha.6)
 - Исходники собственных модулей: [Core](https://github.com/BySally/NTSD-Core) · [Early Loading](https://github.com/BySally/NTSD-Early-Loading) · [Menu Background](https://github.com/BySally/NTSD-Menu-Background). Условия сторонних компонентов и исходники версии Core CF4 приведены в материалах релиза.
 
 ---
@@ -64,7 +64,7 @@ The ZIP is **not a self-contained offline collection of JARs**. Tested client pl
 
 This is a bootstrap installer rather than a fully populated server folder. You need **Java 17**, **Python 3.10+**, internet access and an already installed **matching client profile**.
 
-Extract it to a separate directory and follow the complete [English installation guide](https://github.com/BySally/NTSD/releases/download/0.1.0-alpha.6/INSTALL_EN.md). The server owner must accept the Minecraft EULA. Connect using the normal multiplayer server list, not Quick Play.
+Extract it to a separate directory and follow the complete [English installation guide](https://github.com/BySally/NTSD/blob/main/docs/releases/0.1.0-alpha.6/INSTALL_EN.md). The server owner must accept the Minecraft EULA. Connect using the normal multiplayer server list, not Quick Play.
 
 Public network accessibility and native Linux runtime were not covered by the alpha.6 tests.
 
@@ -72,6 +72,6 @@ Public network accessibility and native Linux runtime were not covered by the al
 
 - **30 quests** remain blocked directly or through dependencies.
 - Direct conversion of Minecraft **1.7.10 worlds is unsupported**. Back up saves and test upgrades on copies.
-- [Known issues](https://github.com/BySally/NTSD/releases/download/0.1.0-alpha.6/KNOWN_ISSUES.md) · [Report a bug](https://github.com/BySally/NTSD/issues/new/choose) · [Full release notes](https://github.com/BySally/NTSD/releases/tag/0.1.0-alpha.6)
+- [Known issues](https://github.com/BySally/NTSD/blob/main/docs/releases/0.1.0-alpha.6/KNOWN_ISSUES.md) · [Report a bug](https://github.com/BySally/NTSD/issues/new/choose) · [Full release notes](https://github.com/BySally/NTSD/releases/tag/0.1.0-alpha.6)
 
 **BySally develops the NTSD modpack and its own support components, not Minecraft or the third-party mods.**

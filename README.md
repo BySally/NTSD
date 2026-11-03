@@ -54,7 +54,7 @@ Import the ZIP **without extracting it** in CurseForge App → Minecraft → My 
 
 This is a server bootstrap, **not a complete offline folder of mod JARs**. Requires Java 17, Python 3.10+, internet access and a matching installed client.
 
-**Инструкции · Guides:** [Быстрая установка / Quick start](docs/PLAYER_INSTALL.md) · [Подробно RU](https://github.com/BySally/NTSD/releases/download/0.1.0-alpha.6/INSTALL_RU.md) · [Full guide EN](https://github.com/BySally/NTSD/releases/download/0.1.0-alpha.6/INSTALL_EN.md) · [Известные проблемы / Known issues](https://github.com/BySally/NTSD/releases/download/0.1.0-alpha.6/KNOWN_ISSUES.md)
+**Инструкции · Guides:** [Быстрая установка / Quick start](docs/PLAYER_INSTALL.md) · [Подробно RU](https://github.com/BySally/NTSD/blob/main/docs/releases/0.1.0-alpha.6/INSTALL_RU.md) · [Full guide EN](https://github.com/BySally/NTSD/blob/main/docs/releases/0.1.0-alpha.6/INSTALL_EN.md) · [Известные проблемы / Known issues](https://github.com/BySally/NTSD/blob/main/docs/releases/0.1.0-alpha.6/KNOWN_ISSUES.md)
 
 > **Alpha / Альфа:** в этой версии 30 квестов пока недоступны напрямую или из-за зависимостей. Не переносите напрямую миры Minecraft 1.7.10. Делайте резервные копии сохранений перед обновлением.
 >
@@ -62,7 +62,7 @@ This is a server bootstrap, **not a complete offline folder of mod JARs**. Requi
 
 ### Открытый код · Open source
 
-Исходники собственных компонентов опубликованы отдельно: [NTSD Core](https://github.com/BySally/NTSD-Core), [NTSD Early Loading](https://github.com/BySally/NTSD-Early-Loading), [NTSD Menu Background](https://github.com/BySally/NTSD-Menu-Background). Соответствующие исходники **Core CF4** также приложены к [релизу alpha.6](https://github.com/BySally/NTSD/releases/tag/0.1.0-alpha.6). Лицензии и авторство сторонних компонентов указаны в релизе.
+Исходники собственных компонентов опубликованы отдельно: [NTSD Core](https://github.com/BySally/NTSD-Core), [NTSD Early Loading](https://github.com/BySally/NTSD-Early-Loading), [NTSD Menu Background](https://github.com/BySally/NTSD-Menu-Background). Точные исходники **Core CF4** опубликованы в [теге v0.1.0-ntsd-cf4](https://github.com/BySally/NTSD-Core/tree/v0.1.0-ntsd-cf4/ntnhcore-port). [Документация alpha.6](docs/releases/0.1.0-alpha.6/README.md) сохраняет инструкции, changelog, известные проблемы, лицензии и авторство компонентов.
 
 All modules and adapted third-party content retain their applicable copyright notices and license terms.
 
