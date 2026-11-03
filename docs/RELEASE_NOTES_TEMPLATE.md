@@ -1,53 +1,45 @@
-# Nuclear Tech: Second Dawn — [VERSION]
+# Nuclear Tech: Second Dawn [VERSION]
 
-**Release channel:** [Alpha / Beta / Stable]
-**Minecraft:** 1.20.1 Forge
-**Forge version:** [EXACT VERIFIED VERSION]
-**Release date:** [ACTUAL DATE WHEN PUBLISHED]
-**Status:** DRAFT — not a published release.
+<!-- GitHub Release descriptions are English-only. Remove these instructions and
+replace all placeholders with verified values before publication. Preserve Russian
+installation documentation through an English-labeled link. Never claim tests not run. -->
 
-## English
+## Download
 
-**Nuclear Tech: Second Dawn** is an independent, technology-focused Minecraft modpack by BySally, centered on HBM NTM Continuum and industrial progression.
+### [Download CurseForge client ZIP]([VERIFIED_CLIENT_ASSET_URL])
+[ACTUAL_SIZE] · CurseForge App import package
 
-### What's included
-- [VERIFY final list of major features after QA.]
-- [VERIFY quests, worldgen, industrial recipes and automation.]
-- [VERIFY Continuum Space integration.]
+### [Download server ZIP]([VERIFIED_SERVER_ASSET_URL])
+[ACTUAL_SIZE] · [ACCURATE_DELIVERY_TYPE: bootstrap installer or tested complete server]
 
-### Changes in this build
-- [Only confirmed changes from previous public build. If first public alpha, say "Initial public test build".]
+## Requirements
 
-### Known issues / limitations
-- [Write all verified outstanding issues; do not claim they are fixed until tested.]
+- Minecraft Java Edition [VERSION], Forge [EXACT_VERSION], Java [VERSION].
+- [VERIFIED_MEMORY_RECOMMENDATION]. State any installer dependencies accurately.
 
-### Installation
-- Client: [CurseForge app link, when approved]
-- Dedicated server: [matching server additional-file link]
-- Official website: https://bysally.github.io/NTSD/
-- Bug reports: https://github.com/BySally/NTSD/issues/new/choose
+## Installation
 
-### Important
-This alpha may contain bugs. Always back up worlds. Compatibility with saves from other Minecraft versions or modpacks is NOT guaranteed.
+[ACTUAL_TESTED_CLIENT_AND_SERVER_STEPS]. Back up saves before updating.
+[Installation (EN)]([VERIFIED_EN_GUIDE_URL]) · [Installation (RU)]([VERIFIED_RU_GUIDE_URL])
 
-## Русский
+## Known Issues
 
-**Nuclear Tech: Second Dawn** — технологическая сборка Minecraft 1.20.1 от BySally, построенная вокруг HBM NTM Continuum.
+- [REAL_REMAINING_LIMITATIONS_AND_UNAVAILABLE_QUEST_COUNT].
+- [TESTED_PLATFORMS_AND_UNVERIFIED_SCOPE].
 
-### Состав и изменения
-- [Заполнить только подтверждёнными возможностями и изменениями.]
+## Changelog
 
-### Известные проблемы
-- [Добавить реальные проблемы и ограничения.]
+- [CONFIRMED_CHANGES_SINCE_PREVIOUS_PUBLIC_BUILD].
 
-### Установка
-- Клиент: [ссылка CurseForge после одобрения]
-- Сервер: [ссылка на серверный пакет идентичной версии]
-- Сайт: https://bysally.github.io/NTSD/
-- Баг-репорты: https://github.com/BySally/NTSD/issues/new/choose
+## Credits, Licenses, Source Code
 
-Перед тестированием альфа-сборки делай резервные копии миров.
+BySally — Project Creator & Maintainer. Credit HBM/Continuum and NTNH / Bufka2011
+and contributors. Preserve third-party licenses and exact corresponding-source access.
+[Credits]([VERIFIED_CREDITS_URL]) · [Licenses]([VERIFIED_LICENSES_URL]) · [Source code]([VERSION_MATCHED_SOURCE_URL])
 
-## Credits
+## SHA-256
 
-BySally (NTSD); HBM NTM Continuum contributors; NTNH / Bufka2011 and contributors (https://github.com/NTNewHorizons/NTNH). Respect original third-party licenses.
+```text
+[ACTUAL_SHA256]  [CLIENT_ASSET_FILENAME]
+[ACTUAL_SHA256]  [SERVER_ASSET_FILENAME]
+```

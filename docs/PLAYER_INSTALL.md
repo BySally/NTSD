@@ -6,7 +6,7 @@ NTSD — сборка Minecraft и оригинальные вспомогате
 
 ## 1. Клиент / Client
 
-**[Скачать клиентский ZIP · Download client](https://github.com/BySally/NTSD/releases/download/0.1.0-alpha.6/NTSD-0.1.0-alpha.6-client.zip)** — 122,35 МБ.
+**[Скачать клиентский ZIP · Download client](https://github.com/BySally/NTSD/releases/download/0.1.0-alpha.6/NTSD-0.1.0-alpha.6-CurseForge.zip)** — 122,35 МБ.
 
 1. Установи **CurseForge App** и войди в Minecraft Java Edition в штатном лаунчере.
 2. Открой **Minecraft → My Modpacks → Import** в CurseForge App.
@@ -47,7 +47,7 @@ NTSD is a Minecraft modpack and original support modules developed and maintaine
 
 ## Client
 
-**[Download client ZIP](https://github.com/BySally/NTSD/releases/download/0.1.0-alpha.6/NTSD-0.1.0-alpha.6-client.zip)** — 122.35 MB.
+**[Download client ZIP](https://github.com/BySally/NTSD/releases/download/0.1.0-alpha.6/NTSD-0.1.0-alpha.6-CurseForge.zip)** — 122.35 MB.
 
 1. Install **CurseForge App** and make sure you have Minecraft Java Edition.
 2. Open **Minecraft → My Modpacks → Import**.

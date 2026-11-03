@@ -13,106 +13,152 @@
   <img alt="Created by BySally" src="https://img.shields.io/badge/Creator-BySally-6479b0?style=flat-square">
 </p>
 
-### [🌐 Official Website](https://bysally.github.io/NTSD/) · [🐛 Report a Bug](https://github.com/BySally/NTSD/issues/new/choose) · [💡 Suggestions](https://github.com/BySally/NTSD/issues/new/choose) · [📦 Releases](https://github.com/BySally/NTSD/releases)
+### [Official website / Сайт](https://bysally.github.io/NTSD/) · [Releases / Выпуски](https://github.com/BySally/NTSD/releases) · [Issues / Обращения](https://github.com/BySally/NTSD/issues/new/choose)
 
-**0.1.0-alpha.6 is available now as a public GitHub pre-release.**  
-**NTSD 0.1.0-alpha.6 уже доступна — это публичная альфа-версия.**
+**0.1.0-alpha.6 is available as a public GitHub pre-release.**  
+**0.1.0-alpha.6 доступна как публичная предварительная версия на GitHub.**
 
 </div>
 
----
+## About / О сборке
 
-## О сборке · About the modpack
+**English.** Nuclear Tech: Second Dawn (NTSD) is an independent Minecraft 1.20.1
+technology modpack developed and maintained by **BySally**, along with its original
+NTSD modules. BySally is not the developer of Minecraft or the included third-party
+mods. The pack centers on **HBM NTM Continuum**: nuclear engineering, industrial
+systems, automation and **HBM Continuum Space** exploration. Quest progression adapts
+**Nuclear Tech: New Horizons (NTNH)** with attribution to its original authors.
 
-**RU** — **Nuclear Tech: Second Dawn (NTSD)** — независимая технологическая сборка Minecraft 1.20.1, которую я, **BySally**, развиваю вместе с собственными модулями NTSD. Я не являюсь разработчиком Minecraft или сторонних модов, входящих в сборку. В её основе — **HBM NTM Continuum**, ядерные технологии, сложные промышленные системы, автоматизация и космические исследования. Квестовая прогрессия адаптирована из **Nuclear Tech: New Horizons** с сохранением указания оригинальных авторов.
+**Русский.** Nuclear Tech: Second Dawn (NTSD) — независимая технологическая сборка
+Minecraft 1.20.1, которую **BySally** развивает и сопровождает вместе с собственными
+модулями NTSD. BySally не является разработчиком Minecraft или включённых сторонних
+модов. В основе — **HBM NTM Continuum**: ядерные технологии, промышленность,
+автоматизация и исследования с **HBM Continuum Space**. Квестовая прогрессия
+адаптирована из **Nuclear Tech: New Horizons (NTNH)** с указанием оригинальных авторов.
 
-**EN** — **Nuclear Tech: Second Dawn (NTSD)** is an independent Minecraft 1.20.1 technology modpack that I, **BySally**, develop and maintain along with its original NTSD components. I am not the developer of Minecraft or the included third-party mods. Built around **HBM NTM Continuum**, it brings together nuclear engineering, large-scale industry, automation, and space exploration. Its quest progression adapts material from **Nuclear Tech: New Horizons**, with attribution to the original creators.
-
-### Ключевые направления · Core features
-
-| ☢️ Nuclear engineering | ⚙️ Industrial automation |
+| Features | Возможности |
 | --- | --- |
-| Реакторы, топливные цепочки, радиация и сложные машины HBM.<br>Reactors, fuel processing, radiation, and complex HBM machinery. | AE2, ProjectRed, CC: Tweaked и производственная логистика.<br>AE2, ProjectRed, CC: Tweaked, and advanced factory logistics. |
-| **🚀 Space exploration** | **📖 Quest progression** |
-| Космические технологии HBM Continuum Space.<br>Space technology powered by HBM Continuum Space. | Адаптированная система заданий NTNH.<br>Quest content adapted from NTNH. |
+| HBM reactors, fuel processing, radiation and industrial machines | Реакторы HBM, топливные цепочки, радиация и промышленные машины |
+| AE2, ProjectRed, CC: Tweaked and factory logistics | AE2, ProjectRed, CC: Tweaked и производственная логистика |
+| Space technology powered by HBM Continuum Space | Космические технологии HBM Continuum Space |
+| Questbook and technological progression adapted from NTNH | Книга заданий и технологическая прогрессия, адаптированные из NTNH |
 
-## Скачать · Downloads
+## Downloads and installation / Загрузка и установка
 
-### [Скачать клиент · Download client ZIP](https://github.com/BySally/NTSD/releases/download/0.1.0-alpha.6/NTSD-0.1.0-alpha.6-client.zip)
+### [CurseForge client ZIP / Клиентский ZIP для CurseForge](https://github.com/BySally/NTSD/releases/download/0.1.0-alpha.6/NTSD-0.1.0-alpha.6-CurseForge.zip)
 
-**0.1.0-alpha.6 · 122.35 MB · Minecraft 1.20.1 · Forge 47.4.28**
+**0.1.0-alpha.6 · 122.35 MB · Minecraft 1.20.1 · Forge 47.4.28 · Java 17**
 
-Импортируй ZIP **без распаковки** в CurseForge App → Minecraft → My Modpacks → Import. При запросе выбери **All Files**, чтобы сохранить квесты, конфигурации и собственные модули NTSD. Приложение самостоятельно скачает 118 официальных модов. Нужна Minecraft Java Edition; рекомендуемая память — 6–8 ГБ с запасом для Windows.
+**English.** Import the ZIP **without extracting it** into CurseForge App → Minecraft
+→ My Modpacks → Import. Choose **All Files** if prompted and wait for downloads.
+The App downloads 118 pinned official files; four bundled JARs bring the installed
+client total to **122 JARs**. Minecraft Java Edition is required. Allocate about
+**6–8 GB RAM**, leaving memory for the operating system. This is an import package,
+not a complete offline mods folder. Do not automatically update pinned mod versions.
 
-Import the ZIP **without extracting it** in CurseForge App → Minecraft → My Modpacks → Import. Choose **All Files** if prompted. The app fetches 118 original mod files from official sources. Minecraft Java Edition is required; allocate around 6–8 GB RAM while leaving memory for the OS.
+**Русский.** Импортируйте ZIP **без распаковки** в CurseForge App → Minecraft
+→ My Modpacks → Import. При запросе выберите **All Files** и дождитесь загрузок.
+Приложение скачает 118 закреплённых официальных файлов; вместе с четырьмя включёнными
+JAR клиент содержит **122 JAR**. Нужна Minecraft Java Edition. Выделите примерно
+**6–8 ГБ RAM**, оставляя память системе. Это пакет импорта, а не автономная папка
+со всеми модами. Не обновляйте закреплённые версии автоматически.
 
-### [Скачать сервер · Download server ZIP](https://github.com/BySally/NTSD/releases/download/0.1.0-alpha.6/NTSD-0.1.0-alpha.6-server.zip)
+### [Server installer ZIP / Установщик сервера](https://github.com/BySally/NTSD/releases/download/0.1.0-alpha.6/NTSD-0.1.0-alpha.6-server.zip)
 
-**0.1.0-alpha.6 · 8.66 MB · dedicated server bootstrap**
+**0.1.0-alpha.6 · 8.66 MB · server bootstrap / установочный пакет**
 
-Это установочный пакет, **не готовая папка сервера со всеми JAR**. Требуются Java 17, Python 3.10+, интернет и уже установленный клиент соответствующей версии. Подробности — в руководствах ниже.
+**English.** Requires **Java 17, Python 3.10+, internet and the matching installed
+client**. Extract into a separate directory and follow the guide. The result has
+93 server JARs. This is **not a FULL/offline server archive**. The server owner must
+read and accept the Minecraft EULA manually.
 
-This is a server bootstrap, **not a complete offline folder of mod JARs**. Requires Java 17, Python 3.10+, internet access and a matching installed client.
+**Русский.** Требуются **Java 17, Python 3.10+, интернет и установленный клиент
+той же версии**. Распакуйте в отдельную папку и следуйте инструкции. После установки
+сервер содержит 93 JAR. Это **не FULL-архив и не автономная папка сервера**. Владелец
+сервера самостоятельно читает и принимает Minecraft EULA.
 
-**Инструкции · Guides:** [Быстрая установка / Quick start](docs/PLAYER_INSTALL.md) · [Подробно RU](https://github.com/BySally/NTSD/blob/main/docs/releases/0.1.0-alpha.6/INSTALL_RU.md) · [Full guide EN](https://github.com/BySally/NTSD/blob/main/docs/releases/0.1.0-alpha.6/INSTALL_EN.md) · [Известные проблемы / Known issues](https://github.com/BySally/NTSD/blob/main/docs/releases/0.1.0-alpha.6/KNOWN_ISSUES.md)
+**Guides / Инструкции:** [Installation EN](https://github.com/BySally/NTSD/blob/main/docs/releases/0.1.0-alpha.6/INSTALL_EN.md) · **[Установка RU](https://github.com/BySally/NTSD/blob/main/docs/releases/0.1.0-alpha.6/INSTALL_RU.md)** · [Quick start / Быстрая установка](docs/PLAYER_INSTALL.md)
 
-> **Alpha / Альфа:** в этой версии 30 квестов пока недоступны напрямую или из-за зависимостей. Не переносите напрямую миры Minecraft 1.7.10. Делайте резервные копии сохранений перед обновлением.
->
-> 30 quests remain inaccessible directly or through dependencies. Minecraft 1.7.10 worlds cannot be directly migrated. Back up saves before upgrading.
+## Alpha limitations / Ограничения Alpha
 
-### Открытый код · Open source
+**English.** This is a playable pre-release, not a completed NTNH port. Thirty quests
+are directly or indirectly unavailable; a full survival/endgame playthrough is not
+certified. OpenComputers is postponed, Terralith is disabled and some translations
+are incomplete. Windows is the tested platform; native Linux runtime is unverified.
+Back up saves and test only copies. Direct Minecraft 1.7.10 world migration is not
+supported. [Known issues](https://github.com/BySally/NTSD/blob/main/docs/releases/0.1.0-alpha.6/KNOWN_ISSUES.md) · [Recorded test scope](https://github.com/BySally/NTSD/blob/main/docs/releases/0.1.0-alpha.6/TEST_RESULTS.md).
 
-Исходники собственных компонентов опубликованы отдельно: [NTSD Core](https://github.com/BySally/NTSD-Core), [NTSD Early Loading](https://github.com/BySally/NTSD-Early-Loading), [NTSD Menu Background](https://github.com/BySally/NTSD-Menu-Background). Точные исходники **Core CF4** опубликованы в [теге v0.1.0-ntsd-cf4](https://github.com/BySally/NTSD-Core/tree/v0.1.0-ntsd-cf4/ntnhcore-port). [Документация alpha.6](docs/releases/0.1.0-alpha.6/README.md) сохраняет инструкции, changelog, известные проблемы, лицензии и авторство компонентов.
+**Русский.** Это играбельная предварительная версия, а не завершённый перенос NTNH.
+Тридцать квестов недоступны напрямую или из-за зависимостей; полное прохождение
+выживания и поздних веток не подтверждено. OpenComputers отложен, Terralith отключён,
+переводы местами неполные. Проверенная платформа — Windows; нативный Linux-запуск
+не проверен. Делайте резервные копии и проверяйте только копии миров. Прямой перенос
+миров Minecraft 1.7.10 не поддерживается. [Известные проблемы](https://github.com/BySally/NTSD/blob/main/docs/releases/0.1.0-alpha.6/KNOWN_ISSUES.md) · [Границы проверок](https://github.com/BySally/NTSD/blob/main/docs/releases/0.1.0-alpha.6/TEST_RESULTS.md).
 
-All modules and adapted third-party content retain their applicable copyright notices and license terms.
+## Development and feedback / Разработка и обратная связь
 
-## Разработка и новости · Development & news
+**English.** First public pre-release: **November 3, 2026**. Development of quests,
+compatibility and progression continues. New builds appear in [GitHub Releases](https://github.com/BySally/NTSD/releases),
+with news on the [website](https://bysally.github.io/NTSD/#updates). For bugs or
+suggestions, use [GitHub Issues](https://github.com/BySally/NTSD/issues/new/choose); include the pack version,
+reproduction steps and sanitized logs. GitHub Release descriptions are English-only;
+this README and the website remain bilingual, and the Russian installation guide
+remains available.
 
-**Первая публичная альфа опубликована 3 ноября 2026 года.** Это не завершённый перенос NTNH: продолжается работа над квестами, совместимостью и прогрессией. Актуальные версии публикую в [GitHub Releases](https://github.com/BySally/NTSD/releases), новости — на [официальном сайте](https://bysally.github.io/NTSD/#updates).
+**Русский.** Первая публичная альфа опубликована **3 ноября 2026 года**. Работа над
+квестами, совместимостью и прогрессией продолжается. Новые сборки появляются в
+[GitHub Releases](https://github.com/BySally/NTSD/releases), новости — на [сайте](https://bysally.github.io/NTSD/#updates).
+Для ошибок и предложений используйте [GitHub Issues](https://github.com/BySally/NTSD/issues/new/choose): укажите
+версию сборки, шаги воспроизведения и логи без личных данных. Описания GitHub Releases
+выходят только на английском; README и сайт остаются двуязычными, русская инструкция
+по установке сохраняется.
 
-**First public pre-release: November 3, 2026.** Quest progression, compatibility and other alpha limitations remain under development. Download verified builds from [GitHub Releases](https://github.com/BySally/NTSD/releases).
+## Credits, licenses and source / Авторы, лицензии и исходники
 
-## Сообщество · Community
+**English.** **BySally — Project Creator & Maintainer** of NTSD and its original
+modules. HBM/Continuum contributors retain authorship of the technical foundation.
+Adapted questbook and parts of world generation originate in [NTNH](https://github.com/NTNewHorizons/NTNH),
+**Bufka2011 and NTNH contributors**; thanks to Bufka2011 for permission to adapt his
+work with credit and a link to the original. Third-party licenses remain applicable,
+including CC BY-NC-SA 4.0 for covered NTNH adaptations. AI-generated NTSD artwork is
+not automatically claimed as exclusively copyrighted. NTSD is independent of Mojang,
+Microsoft, HBM and the original NTNH team; credit does not imply endorsement.
 
-Found a crash, broken recipe, or incompatibility? Please include the build version, reproduction steps, and relevant logs; remove any personal information from attachments.
+**Русский.** **BySally — создатель и сопровождающий проекта NTSD** и его собственных
+модулей. Авторы HBM/Continuum сохраняют авторство технической основы. Адаптированная
+книга и части генерации происходят из [NTNH](https://github.com/NTNewHorizons/NTNH),
+работ **Bufka2011 и участников NTNH**; благодарим Bufka2011 за разрешение адаптировать
+его материалы с указанием авторства и ссылкой на оригинал. Лицензии сторонних работ
+сохраняются, включая CC BY-NC-SA 4.0 для применимых адаптаций NTNH. Исключительные
+права на все ИИ-изображения NTSD автоматически не заявляются. NTSD не связан с Mojang,
+Microsoft, HBM или оригинальной командой NTNH; указание авторов не означает одобрения.
 
-Нашёл ошибку? Укажи версию сборки, шаги для повторения, приложи логи и удали из них персональные данные.
-
-- [🐛 Сообщить об ошибке / Report a bug](https://github.com/BySally/NTSD/issues/new/choose)
-- [💡 Предложить улучшение / Suggest a feature](https://github.com/BySally/NTSD/issues/new/choose)
-- [📋 Все обращения / Browse issues](https://github.com/BySally/NTSD/issues)
-
-## Авторство и благодарности · Credits
-
-**NTSD modpack and original modules — creator & maintainer:** [**BySally**](https://github.com/BySally)
-
-**Technical foundation:** [HBM Nuclear Tech Mod: Continuum](https://www.curseforge.com/minecraft/mc-mods/ntm-continuum) and its creators.
-
-**Adapted questbook and parts of world generation:** [Nuclear Tech: New Horizons (NTNH)](https://github.com/NTNewHorizons/NTNH), **Bufka2011** and the NTNH contributors. Thanks to Bufka2011 for permission to adapt his work with attribution and a link to the original.
-
-All third-party mods retain their own licenses. NTNH-derived content remains subject to applicable license terms, including CC BY-NC-SA 4.0 where relevant. AI-assisted NTSD visuals are not automatically claimed as exclusively copyrighted works.
-
-Подробнее: [CREDITS.md](CREDITS.md) · [LICENSE_NOTICE.md](LICENSE_NOTICE.md).
-
----
+- [Core CF4 — exact source / точные исходники](https://github.com/BySally/NTSD-Core/tree/v0.1.0-ntsd-cf4/ntnhcore-port)
+- [Early Loading 0.1.1](https://github.com/BySally/NTSD-Early-Loading/tree/v0.1.1/module)
+- [Menu Background 0.1.2](https://github.com/BySally/NTSD-Menu-Background/tree/v0.1.2/module)
+- [Changelog](https://github.com/BySally/NTSD/blob/main/docs/releases/0.1.0-alpha.6/CHANGELOG.md) · [Credits / Авторы](https://github.com/BySally/NTSD/blob/main/docs/releases/0.1.0-alpha.6/CREDITS.md) · [Licenses / Лицензии](https://github.com/BySally/NTSD/blob/main/docs/releases/0.1.0-alpha.6/LICENSES.md)
+- [Versions and hashes / Версии и хеши](https://github.com/BySally/NTSD/blob/main/docs/releases/0.1.0-alpha.6/FINAL_MOD_LIST.csv) · [Download SHA-256](https://github.com/BySally/NTSD/blob/main/docs/releases/0.1.0-alpha.6/SHA256SUMS.txt)
 
 <details>
-<summary><b>Для разработчиков · Maintainer documentation</b></summary>
+<summary><b>Maintainer documentation / Документация сопровождения</b></summary>
 
-This repository hosts the official **NTSD website**, player documentation and release links; game archives are published as GitHub Release assets.
+**English.** This repository hosts the website, player documentation and release
+links. Game archives are Release Assets; game JARs are not committed to git history.
 
-- [Website deployment and updates](docs/DEPLOYMENT.md)
-- [Website source](index.html)
-- [Site settings](site-config.js)
-- [Bug report templates](.github/ISSUE_TEMPLATE)
-- [GitHub Pages](https://github.com/BySally/NTSD/settings/pages)
+**Русский.** Репозиторий содержит сайт, документацию игроков и ссылки на выпуски.
+Игровые архивы находятся в Release Assets; игровые JAR не добавляются в git-историю.
+
+- [Language and maintenance rules / Правила языка и сопровождения](AGENTS.md)
+- [Website deployment / Публикация сайта](docs/DEPLOYMENT.md)
+- [Website source / Исходник сайта](index.html) · [Site settings / Настройки сайта](site-config.js)
+- [Issue forms / Формы обращений](.github/ISSUE_TEMPLATE)
+- [GitHub Pages settings / Настройки](https://github.com/BySally/NTSD/settings/pages)
 
 </details>
 
 <div align="center">
 
-**NTSD modpack & original modules by BySally · Minecraft by Mojang Studios**
-
-*Independent, unofficial Minecraft modpack. Not affiliated with Mojang or Microsoft.*
+**NTSD modpack & original modules by BySally · Minecraft by Mojang Studios**  
+**Сборка и собственные модули NTSD — BySally · Minecraft — Mojang Studios**
 
 </div>

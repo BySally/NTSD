@@ -12,3 +12,9 @@ First public GitHub pre-release. BySally — Project Creator & Maintainer.
 - Preserves existing quests, rewards, recipes, balance and world-generation rules. The 418-quest book still has known unsupported conditions; this is not a completed NTNH port. Terralith remains disabled.
 
 See TEST_RESULTS.md for the actual checks and their limits. Installation does not depend on moderation of the three NTSD CurseForge projects.
+
+## Public page and download maintenance
+
+- GitHub Release description is English-only; README and website retain English and Russian.
+- Client asset renamed to `NTSD-0.1.0-alpha.6-CurseForge.zip` through GitHub API; archive bytes and SHA-256 are unchanged. The server filename and contents are unchanged.
+- Russian installation instructions remain available; current download links were updated.
