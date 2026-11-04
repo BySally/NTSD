@@ -7,8 +7,8 @@ This is a playable PRE-RELEASE, not a stable or complete NTNH 1.7.10 recreation.
 - Terralith is intentionally disabled. Do not add it to an existing world assuming it was validated for this release.
 - Official HBM/Space files are used; private custom translation overlays are not all included. Some text may remain English even with Russian selected.
 - Observable's HTTP 500 concerns its external diagnostic reporting path. Other nonfatal rendering/integration warnings documented during alpha testing remain; no claim that every machine combination or shader works is made. Internet voice-chat connectivity requires administrator network setup.
-- The supported client installation path is CurseForge App on Windows. Downloads depend on author-hosted file availability. Other launchers and Linux clients have not passed this release's clean-install gate.
-- The server archive is a **bootstrap**, not an offline JAR bundle. It requires a legally installed matching client mods folder, Python 3.10+, Java 17 and internet. Native Windows dedicated-server operation is checked; native Linux runtime operation is not claimed.
+- Native client and Server Pack use Core CF5 and were checked on Windows. The earlier CurseForge App import package uses CF4. Linux runtime and remote network access were outside the new smoke test.
+- CF5 corrects Nether quartz placement in new chunks. Previously generated chunks keep their existing blocks.
 - Existing Minecraft 1.20.1 saves require backup and a test on a copy. Direct import of 1.7.10 saves is unsupported. The release has not received CurseForge modpack approval simply because the files are available on GitHub.
 
 Report issues: https://github.com/BySally/NTSD/issues . Include reproduction steps, Java/OS details and sanitized logs.

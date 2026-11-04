@@ -1,5 +1,11 @@
 # Nuclear Tech: Second Dawn 0.1.0-alpha.6
 
+## GitHub CF5 packages
+
+- Published the Native client with 122 pinned mods and the Server Pack with 93 pinned mods for an installed Forge server.
+- Core CF5 fixes Nether quartz appearing in new Overworld stone. Vanilla Nether quartz and existing chunks are preserved.
+- Retained the existing CurseForge App client on Core CF4. [CF5 corresponding source](https://github.com/BySally/NTSD-Core/releases/tag/v0.1.0-ntsd-cf5).
+
 First public GitHub pre-release. BySally — Project Creator & Maintainer.
 
 - Packages the current alpha.6 candidate for Minecraft 1.20.1, Forge 47.4.28 and Java 17.

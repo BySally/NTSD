@@ -63,19 +63,21 @@ JAR клиент содержит **122 JAR**. Нужна Minecraft Java Edition
 **6–8 ГБ RAM**, оставляя память системе. Это пакет импорта, а не автономная папка
 со всеми модами. Не обновляйте закреплённые версии автоматически.
 
-### [Server installer ZIP / Установщик сервера](https://github.com/BySally/NTSD/releases/download/0.1.0-alpha.6/NTSD-0.1.0-alpha.6-server.zip)
+### [Native client ZIP / Клиент Native](https://github.com/BySally/NTSD/releases/download/0.1.0-alpha.6/NTSD-0.1.0-alpha.6-Native.zip)
 
-**0.1.0-alpha.6 · 8.66 MB · server bootstrap / установочный пакет**
+**Core CF5 · 122 JARs · 469.79 MB**
 
-**English.** Requires **Java 17, Python 3.10+, internet and the matching installed
-client**. Extract into a separate directory and follow the guide. The result has
-93 server JARs. This is **not a FULL/offline server archive**. The server owner must
-read and accept the Minecraft EULA manually.
+**English.** Extract into a new Minecraft 1.20.1 Forge 47.4.28 profile and run with Java 17. Use this client with the CF5 Server Pack.
 
-**Русский.** Требуются **Java 17, Python 3.10+, интернет и установленный клиент
-той же версии**. Распакуйте в отдельную папку и следуйте инструкции. После установки
-сервер содержит 93 JAR. Это **не FULL-архив и не автономная папка сервера**. Владелец
-сервера самостоятельно читает и принимает Minecraft EULA.
+**Русский.** Распакуйте в новый профиль Minecraft 1.20.1 Forge 47.4.28 и запустите с Java 17. Для подключения к серверу CF5 используйте этот клиент.
+
+### [Server Pack ZIP / Серверный архив](https://github.com/BySally/NTSD/releases/download/0.1.0-alpha.6/NTSD-0.1.0-alpha.6-Server.zip)
+
+**Core CF5 · 93 JARs · 283.90 MB**
+
+**English.** Extract into the root of an installed Forge 47.4.28 server and launch it with Java 17. For a local server, accept the Minecraft EULA yourself.
+
+**Русский.** Распакуйте в корень установленного Forge Server 47.4.28 и запустите с Java 17. При локальной установке самостоятельно примите Minecraft EULA.
 
 **Guides / Инструкции:** [Installation EN](https://github.com/BySally/NTSD/blob/main/docs/releases/0.1.0-alpha.6/INSTALL_EN.md) · **[Установка RU](https://github.com/BySally/NTSD/blob/main/docs/releases/0.1.0-alpha.6/INSTALL_RU.md)** · [Quick start / Быстрая установка](docs/PLAYER_INSTALL.md)
 
@@ -118,8 +120,7 @@ remains available.
 **English.** **BySally — Project Creator & Maintainer** of NTSD and its original
 modules. HBM/Continuum contributors retain authorship of the technical foundation.
 Adapted questbook and parts of world generation originate in [NTNH](https://github.com/NTNewHorizons/NTNH),
-**Bufka2011 and NTNH contributors**; thanks to Bufka2011 for permission to adapt his
-work with credit and a link to the original. Third-party licenses remain applicable,
+**Bufka2011 and NTNH contributors**. Third-party licenses remain applicable,
 including CC BY-NC-SA 4.0 for covered NTNH adaptations. AI-generated NTSD artwork is
 not automatically claimed as exclusively copyrighted. NTSD is independent of Mojang,
 Microsoft, HBM and the original NTNH team; credit does not imply endorsement.
@@ -127,12 +128,12 @@ Microsoft, HBM and the original NTNH team; credit does not imply endorsement.
 **Русский.** **BySally — создатель и сопровождающий проекта NTSD** и его собственных
 модулей. Авторы HBM/Continuum сохраняют авторство технической основы. Адаптированная
 книга и части генерации происходят из [NTNH](https://github.com/NTNewHorizons/NTNH),
-работ **Bufka2011 и участников NTNH**; благодарим Bufka2011 за разрешение адаптировать
-его материалы с указанием авторства и ссылкой на оригинал. Лицензии сторонних работ
+работ **Bufka2011 и участников NTNH**. Лицензии сторонних работ
 сохраняются, включая CC BY-NC-SA 4.0 для применимых адаптаций NTNH. Исключительные
 права на все ИИ-изображения NTSD автоматически не заявляются. NTSD не связан с Mojang,
 Microsoft, HBM или оригинальной командой NTNH; указание авторов не означает одобрения.
 
+- [Core CF5 — exact source / точные исходники](https://github.com/BySally/NTSD-Core/releases/tag/v0.1.0-ntsd-cf5)
 - [Core CF4 — exact source / точные исходники](https://github.com/BySally/NTSD-Core/tree/v0.1.0-ntsd-cf4/ntnhcore-port)
 - [Early Loading 0.1.1](https://github.com/BySally/NTSD-Early-Loading/tree/v0.1.1/module)
 - [Menu Background 0.1.2](https://github.com/BySally/NTSD-Menu-Background/tree/v0.1.2/module)
