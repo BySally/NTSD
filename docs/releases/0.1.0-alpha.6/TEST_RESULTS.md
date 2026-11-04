@@ -16,7 +16,7 @@ Verified on Windows on 2026-11-03 with Minecraft 1.20.1, Forge 47.4.28 and Java 
 | Dedicated server installed from the distributed bootstrap | PASS; official Forge installation, 93 server JAR hashes verified; EULA remains false in public delivery |
 | Client launch and animation loop | PASS |
 | Return from settings and other screens | PASS; animation restarts, native buttons retained, texture upload checks pass |
-| New ordinary singleplayer world created through the game UI | PASS; rendered Overworld, questbook opens, game exits normally |
+| New ordinary singleplayer world created through the game UI | PASS; rendered Overworld, game exits normally |
 | Matching client connects to fresh dedicated server | PASS through the normal multiplayer server list; local loopback QA connection; initial command-line Quick Play attempt timed out |
 | HBM and integration block smoke checks | PASS; 12 blocks registered/placed; block-entity save/load and exposed energy/item capabilities checked; existing RF/HE verification reports pass |
 | PneumaticCraft Drone Interface | PASS; actual 3x3 crafting-grid match under original recipe ID, correct output x1, wireless modem required |
