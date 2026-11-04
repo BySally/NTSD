@@ -15,6 +15,3 @@ Report issues: https://github.com/BySally/NTSD/issues . Include reproduction ste
 
 
 Font A: some Cyrillic glyphs and wrapping differ from original alpha.6. Linux AWT rendering and in-session font resource-pack reload have not been validated. Final CF4 tests on Windows found no missing/clipped glyphs in the 188-character set.
-
-
-- In final Windows QA, command-line Quick Play timed out. Adding the server under Multiplayer → Add Server, waiting for its status ping and then joining worked. Use the normal server list for this release. Forge can show a red compatibility marker for the client-only crash_assistant, searchables, shulkerboxtooltip and xaerolib IDs even though the tested client/server channel negotiation and login succeed. This does not authorize substituting different JARs or ignoring other mismatch errors.
