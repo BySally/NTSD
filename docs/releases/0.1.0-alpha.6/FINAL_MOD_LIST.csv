@@ -1,4 +1,4 @@
-﻿filename,sha256,size,sides,mod_ids,name,version,license,projectID,fileID,route,side
+filename,sha256,size,sides,mod_ids,name,version,license,projectID,fileID,route,side
 AdvancedPeripherals-1.20.1-0.7.48r.jar,664a94fe47d2e9a7e94bc204c1c546617f4aa4b6787d24bcf5694c19f5c2d2bc,885438,client;server,advancedperipherals,Advanced Peripherals,0.7.48r,All rights reserved,431725,8228409,OFFICIAL_CF,COMMON
 ae2wtlib-15.3.3-forge.jar,39e5cede37d5c6a07592d6c1e83398791e037f3d434bc44f7460cd085a4de5f4,229518,client;server,ae2wtlib,AE2WTLib,15.3.3-forge,MIT,459929,7251206,OFFICIAL_CF,COMMON
 AgriCraft-forge-1.20.1-4.0.6.jar,7f6cf2bcff0d4dd432c1c8a6c6b201c0114829b456506abdfaa29f67cc89992f,2085377,client;server,agricraft,AgriCraft,4.0.6,MIT,225635,7257465,OFFICIAL_CF,COMMON
@@ -79,7 +79,7 @@ NaturesCompass-1.20.1-1.12.0-forge.jar,bc3601e9e050802569647de843fe9d3160934c5f3
 netherportalfix-forge-1.20-13.0.1.jar,06f1354664aee53d4c32c83f76ed94bb72426a75b7e0eb8e415abfba3634cf4e,217831,client;server,netherportalfix,NetherPortalFix,13.0.1,All rights reserved,241160,4939735,OFFICIAL_CF,COMMON
 notenoughanimations-forge-1.12.7-mc1.20.1.jar,e32732b87c6e0cf5031959c5746d1d3e8125dd39a9ba98627a2d2599d4085fb0,1872910,client,notenoughanimations,NotEnoughAnimations,1.12.7,tr7zw Protective License,433760,9396176,OFFICIAL_CF,CLIENT_ONLY
 ntmspace-forge-1.0.0-1.20.1.jar,dc056af4b4c984ee2518aff555bf2e574630f1e3ce494ab33dcb26b608cc5bff,50656324,client;server,ntmspace,NTM: Space,1.0.0,LGPL-3.0,1754149,9378781,OFFICIAL_CF,COMMON
-ntnhcore-0.1.0-ntsd-cf4.jar,4a4919433050c87421eeacfef882d8c5e5cdd0e7f9880b8526724d497883a6c0,4148445,client;server,ntnhcore,NTNH Core Continuum (NTSD adaptation),0.1.0-ntsd-cf4,GPL-3.0-or-later,1780943,,BUNDLED_WITH_CORRESPONDING_SOURCE,COMMON
+ntnhcore-0.1.0-ntsd-cf5.jar,15914025a5b7cbd932750074016ed4d2c2da287b10ce1de09ae3aedc22ea94c2,4148434,client;server,ntnhcore,NTNH Core Continuum (NTSD adaptation),0.1.0-ntsd-cf5,GPL-3.0-or-later,1780943,,GITHUB_NATIVE_AND_SERVER,COMMON
 ntsd-early-loading-0.1.1.jar,2ee09053a5f077d3be6c2429aad1d7a6e2cedd1de5045171811c97f2576fcd32,30076,client,,NTSD Early Loading,0.1.1,LGPL-2.1-only,,,BUNDLED_WITH_CORRESPONDING_SOURCE,CLIENT_ONLY
 ntsd-menu-background-0.1.2.jar,e1f89e7e67c6175ca5761db32443e0b60e87610771cd798a047b173922bf16c9,46736,client,ntsdmenu,NTSD Menu Background,0.1.2,LGPL-2.1-only,,,BUNDLED_WITH_CORRESPONDING_SOURCE,CLIENT_ONLY
 observable-4.4.1.jar,cb0d189d2ca663b9a4cc877493b3398243c630225232b962656916dc4d468433,473368,client;server,observable,Observable,4.4.1,MPL,509575,5080064,OFFICIAL_CF,COMMON

@@ -1,5 +1,13 @@
 # NTSD 0.1.0-alpha.6 — release verification
 
+## CF5 Native client and Server Pack
+
+The archives were extracted into separate clean game and server directories on Windows. All 122 client JARs and 93 server JARs matched their pinned SHA-256 values. With Java 17 and Forge 47.4.28, the dedicated server generated a new world, the Native client joined over localhost, and the server saved, stopped and loaded the saved world on restart. The local smoke test used isolated offline-mode authentication. Linux, internet access to the server and a full quest playthrough were outside this check.
+
+## Historical CF4 checks
+
+The checks below refer to the original CF4 downloads.
+
 Verified on Windows on 2026-11-03 with Minecraft 1.20.1, Forge 47.4.28 and Java 17. The release uses Core 0.1.0-ntsd-cf4 (owner-approved font A), Early Loading 0.1.1 and Menu Background 0.1.2.
 
 | Check | Result |
